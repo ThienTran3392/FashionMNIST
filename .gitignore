@@ -1,0 +1,49 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ===== Virtual Environment =====
+venv/
+env/
+.venv/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+
+# ===== Dataset (file lớn, tải lại được) =====
+raw/
+data/raw/
+*.ubyte
+
+# ===== Model checkpoints (file lớn) =====
+checkpoints/
+*.pth
+*.pt
+*.onnx
+
+# ===== Logs =====
+logs/
+runs/
+wandb/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Ảnh demo lớn (tùy chọn) =====
+# *.jpg
+# *.png
+
